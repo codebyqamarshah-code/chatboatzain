@@ -55,3 +55,17 @@
     min-width: 0;
   }
 }
+
+/* ===== Mobile Sidebar Toggle Fix ===== */
+@media (max-width: 768px) {
+  .hideSide {
+    display: inline-flex !important;
+    visibility: visible !important;
+    color: #a3aab8 !important;
+    cursor: pointer;
+  }
+
+  .sidebar {
+    transition: transform 0.25s ease-in-out;
+  }
+}
